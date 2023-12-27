@@ -1,0 +1,114 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: rgb(221, 242, 250);
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:100px auto;
+}
+
+h2{
+  text-align: center;
+  color:rgb(40, 111, 139);
+}
+
+.taskdiv{
+  width:auto;
+  height:auto;
+  background-color: white;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+
+}
+.flexContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:30px;
+}
+
+.taskinput{
+  border:1px solid rgb(59, 127, 154);
+  border-radius:4px;
+  background-color:rgb(240, 246, 248) ;
+  width:230px;
+  height:25px;
+}
+
+.buttonAdd{
+border:none;
+border-radius:4px;
+background-color: rgb(28, 97, 124);
+color:white;
+width:100px;
+height:25px;
+margin:8px;
+padding:4px;
+font-weight: bold;
+font-size: 14px;
+text-align: center;
+}
+
+.delButton{
+  width:50px;
+  height:20px;
+  color:white;
+  background-color: black;
+  border:none;
+  border-radius:4px;
+  padding:3px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+ 
+li{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+input[type="checkbox"] {
+  margin-right: 2px;
+}
+.result {
+  flex: 1; 
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.clearCompletedButton{
+  align-content: center;
+  text-align: center;
+  color: white;
+  font-size: 600;
+  padding: 5px;
+  border:none;
+  border-radius: 4px;
+  background-color: rgb(58, 143, 177);
+  margin: 10px;
+}
+@keyframes example {
+  to {
+    transform: scaleX(0);
+  }
+  from {
+    transform: scaleX(1);  
+  }
+}
+
+h2{
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
